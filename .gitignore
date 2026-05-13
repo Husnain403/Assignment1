@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# AWS / local secrets
+.env
+*.pem
+*.key
+trust.json
+policy.json
+userdata_rendered.sh
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Build artefacts
+AWSCLIV2.pkg
